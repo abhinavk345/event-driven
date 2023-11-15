@@ -1,0 +1,26 @@
+for setting axon server
+download axon jar and run by command  inside folder
+download from :: https://download.axoniq.io/axonserver/AxonServer.zip
+folder:: \AxonServer\AxonServer-2023.2.1
+Run command : java -jar axonserver.jar
+
+==========
+it will run on default port :8024
+
+and also add following dependency in pom.xml file :
+--------------
+<!-- https://mvnrepository.com/artifact/org.axonframework/axon-spring-boot-starter -->
+		<dependency>
+			<groupId>org.axonframework</groupId>
+			<artifactId>axon-spring-boot-starter</artifactId>
+			<version>4.8.2</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+			<version>32.1.2-jre</version>
+		</dependency>
+
+		=====================================
